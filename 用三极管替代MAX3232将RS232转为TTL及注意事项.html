@@ -5,7 +5,7 @@
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
   })();
-  </script></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">用三极管替代MAX232电平转换芯片！RS232串口转TTL</h1><a id="logo" href="/.">屯屯屯</a><p class="description">一个烫烫烫锟斤拷??□□□的博客</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">用三极管替代MAX232电平转换芯片！RS232串口转TTL</h1><div class="post-meta">May 13, 2018<span> | </span><span class="category"><a href="/categories/电子电路/">电子电路</a></span><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> 阅读</span></span></div><div class="post-content"><p>当需要用PC与RS232接口的设备通信而又没有MAX232芯片的设备时，可以通过FT232或PL2303等USB转串口芯片电路连接到一种只要3.3V或5V供电的简单的电平转换电路即可正常的与设备通信！</p>
+  </script></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">用三极管替代MAX232电平转换芯片！RS232串口转TTL</h1><a id="logo" href="/.">屯屯屯</a><p class="description">一个烫烫烫锟斤拷??□□□的博客</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">用三极管替代MAX232电平转换芯片！RS232串口转TTL</h1><div class="post-meta">May 13, 2018<span> | </span><span class="category"><a href="/categories/电子电路/">电子电路</a></span><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> 阅读</span></span></div><a class="disqus-comment-count" data-disqus-identifier="用三极管替代MAX3232将RS232转为TTL及注意事项.html" href="/用三极管替代MAX3232将RS232转为TTL及注意事项.html#disqus_thread"></a><div class="post-content"><p>当需要用PC与RS232接口的设备通信而又没有MAX232芯片的设备时，可以通过FT232或PL2303等USB转串口芯片电路连接到一种只要3.3V或5V供电的简单的电平转换电路即可正常的与设备通信！</p>
 <p><strong><em> <a href="https://baike.baidu.com/item/RS-232/2022036?fr=aladdin&amp;fromid=3555506&amp;fromtitle=rs232" target="_blank" rel="noopener">RS232</a>简介</em></strong></p>
 <h4 id="原理图："><a href="#原理图：" class="headerlink" title="原理图："></a>原理图：</h4><p><img src="/images/pasted-2.png" alt="RS232转TTL电平原理图"></p>
 <p>RS232的逻辑电压范围为-15V~+15V，其中<br><strong><em>-15V~-3V</em></strong>为逻辑<strong><em>1</em></strong>、<strong><em>3V~15V</em></strong>为逻辑0。</p>
@@ -21,7 +21,52 @@
 <li>供电电源VCC应大于3V，低于3V不满足RS232对电平要求。</li>
 <li>经本人测试使用9015与9014对管制作的电路，在波特率为115200下收发正常。</li>
 </ul>
-</div><div class="tags"><a href="/tags/RS232/">RS232 </a><a href="/tags/串口/">串口</a><a href="/tags/TTL/">TTL</a><a href="/tags/电平转换/">电平转换</a><a href="/tags/MAX232/">MAX232</a></div><div class="post-nav"><a class="pre" href="/修改Android源码使ro属性可重写.html">修改Android源码使property中ro属性可重复修改</a></div></div></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" target="_blank"><input type="search" name="word" maxlength="20" placeholder="Search"/><input type="hidden" name="si" value="http://tuntuntun.net"/><input name="tn" type="hidden" value="bds"/><input name="cl" type="hidden" value="3"/><input name="ct" type="hidden" value="2097152"/><input name="s" type="hidden" value="on"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android系统/">Android系统</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/电子电路/">电子电路</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/android/" style="font-size: 15px;">android</a> <a href="/tags/property/" style="font-size: 15px;">property</a> <a href="/tags/ro/" style="font-size: 15px;">ro</a> <a href="/tags/只读/" style="font-size: 15px;">只读</a> <a href="/tags/修改/" style="font-size: 15px;">修改</a> <a href="/tags/RS232/" style="font-size: 15px;">RS232 </a> <a href="/tags/串口/" style="font-size: 15px;">串口</a> <a href="/tags/TTL/" style="font-size: 15px;">TTL</a> <a href="/tags/电平转换/" style="font-size: 15px;">电平转换</a> <a href="/tags/MAX232/" style="font-size: 15px;">MAX232</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/修改Android源码使ro属性可重写.html">修改Android源码使property中ro属性可重复修改</a></li><li class="post-list-item"><a class="post-list-link" href="/用三极管替代MAX3232将RS232转为TTL及注意事项.html">用三极管替代MAX232电平转换芯片！RS232串口转TTL</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.example1.com/" title="no site1" target="_blank">no site1</a><ul></ul><a href="http://www.example2.com/" title="no site2" target="_blank">no site2</a><ul></ul><a href="http://www.example3.com/" title="no site3" target="_blank">no site3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">屯屯屯.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.1" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.1" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.css"><script>(function(){
+</div><div class="tags"><a href="/tags/RS232/">RS232 </a><a href="/tags/串口/">串口</a><a href="/tags/TTL/">TTL</a><a href="/tags/电平转换/">电平转换</a><a href="/tags/MAX232/">MAX232</a></div><div class="post-nav"><a class="pre" href="/修改Android源码使ro属性可重写.html">修改Android源码使property中ro属性可重复修改</a></div><div id="disqus_thread"><div class="btn_click_load"><button class="disqus_click_btn">阅读评论（请确保 Disqus 可以正常加载）</button></div><script type="text/javascript">var disqus_config = function () {
+    this.page.url = 'http://tuntuntun.net/用三极管替代MAX3232将RS232转为TTL及注意事项.html';
+    this.page.identifier = '用三极管替代MAX3232将RS232转为TTL及注意事项.html';
+    this.page.title = '用三极管替代MAX232电平转换芯片！RS232串口转TTL';
+  };</script><script type="text/javascript" id="disqus-lazy-load-script">$.ajax({
+url: 'https://disqus.com/next/config.json',
+timeout: 2500,
+type: 'GET',
+success: function(){
+  var d = document;
+  var s = d.createElement('script');
+  s.src = '//www-tuntuntun-net.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', + new Date());
+  (d.head || d.body).appendChild(s);
+  $('.disqus_click_btn').css('display', 'none');
+},
+error: function() {
+  $('.disqus_click_btn').css('display', 'block');
+}
+});</script><script type="text/javascript" id="disqus-click-load">$('.btn_click_load').click(() => {  //click to load comments
+    (() => { // DON'T EDIT BELOW THIS LINE
+        var d = document;
+        var s = d.createElement('script');
+        s.src = '//www-tuntuntun-net.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    $('.disqus_click_btn').css('display','none');
+});</script><script type="text/javascript" id="disqus-count-script">$(function() {
+     var xhr = new XMLHttpRequest();
+     xhr.open('GET', '//disqus.com/next/config.json', true);
+     xhr.timeout = 2500;
+     xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4 && xhr.status === 200) {
+         $('.post-meta .post-comments-count').show();
+         var s = document.createElement('script');
+         s.id = 'dsq-count-scr';
+         s.src = 'https://www-tuntuntun-net.disqus.com/count.js';
+         s.async = true;
+         (document.head || document.body).appendChild(s);
+       }
+     };
+     xhr.ontimeout = function () { xhr.abort(); };
+     xhr.send(null);
+   });
+</script></div></div></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" target="_blank"><input type="search" name="word" maxlength="20" placeholder="Search"/><input type="hidden" name="si" value="http://tuntuntun.net"/><input name="tn" type="hidden" value="bds"/><input name="cl" type="hidden" value="3"/><input name="ct" type="hidden" value="2097152"/><input name="s" type="hidden" value="on"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android系统/">Android系统</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/电子电路/">电子电路</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/android/" style="font-size: 15px;">android</a> <a href="/tags/property/" style="font-size: 15px;">property</a> <a href="/tags/ro/" style="font-size: 15px;">ro</a> <a href="/tags/只读/" style="font-size: 15px;">只读</a> <a href="/tags/修改/" style="font-size: 15px;">修改</a> <a href="/tags/RS232/" style="font-size: 15px;">RS232 </a> <a href="/tags/串口/" style="font-size: 15px;">串口</a> <a href="/tags/TTL/" style="font-size: 15px;">TTL</a> <a href="/tags/电平转换/" style="font-size: 15px;">电平转换</a> <a href="/tags/MAX232/" style="font-size: 15px;">MAX232</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/修改Android源码使ro属性可重写.html">修改Android源码使property中ro属性可重复修改</a></li><li class="post-list-item"><a class="post-list-link" href="/用三极管替代MAX3232将RS232转为TTL及注意事项.html">用三极管替代MAX232电平转换芯片！RS232串口转TTL</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//www-tuntuntun-net.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.example1.com/" title="no site1" target="_blank">no site1</a><ul></ul><a href="http://www.example2.com/" title="no site2" target="_blank">no site2</a><ul></ul><a href="http://www.example3.com/" title="no site3" target="_blank">no site3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">屯屯屯.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.1" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.1" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.css"><script>(function(){
 var bp = document.createElement('script');
 var curProtocol = window.location.protocol.split(':')[0];
 if (curProtocol === 'https') {
