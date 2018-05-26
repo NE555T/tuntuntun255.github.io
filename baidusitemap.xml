@@ -3,10 +3,9 @@
 
 
     
-    
   <url>
     <loc>http://tuntuntun.net/%E4%BF%AE%E6%94%B9Android%E6%BA%90%E7%A0%81%E4%BD%BFro%E5%B1%9E%E6%80%A7%E5%8F%AF%E9%87%8D%E5%86%99.html</loc>
-    <lastmod>2018-05-17T09:05:10.431Z</lastmod>
+    <lastmod>2018-05-26T12:14:08.427Z</lastmod>
     <data>
         <display>
         <title>修改Android源码使property中ro属性可重复修改</title>
@@ -31,6 +30,35 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>http://tuntuntun.net/C-%E5%8A%A8%E6%80%81%E7%94%9F%E6%88%90%E5%B9%B6%E5%8A%A8%E6%80%81%E8%B0%83%E7%94%A8dll.html</loc>
+    <lastmod>2018-05-26T12:11:42.723Z</lastmod>
+    <data>
+        <display>
+        <title>VC++动态生成并动态调用dll</title>
+        <pubTime>2018-05-26T11:50:00.000Z</pubTime>
+        
+        <tag>VC++</tag>
+         
+        <tag>MFC</tag>
+         
+        <tag>dll</tag>
+         
+        <tag>Windows</tag>
+         
+        <tag>SkinMagic</tag>
+         
+         
+           
+             
+              <breadCrumb title="VC++" url="http://tuntuntun.net/categories/VC/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://tuntuntun.net/%E7%94%A8%E4%B8%89%E6%9E%81%E7%AE%A1%E6%9B%BF%E4%BB%A3MAX3232%E5%B0%86RS232%E8%BD%AC%E4%B8%BATTL%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</loc>
