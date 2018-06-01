@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tuntuntun.net/"/>
-  <updated>2018-05-27T04:55:10.007Z</updated>
+  <updated>2018-06-01T01:34:31.807Z</updated>
   <id>http://tuntuntun.net/</id>
   
   <author>
@@ -17,11 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>VC++动态生成并动态调用dll</title>
+    <title>解决Android VPN libipsec failed pfkey open (Address family not supported by protocol)以及Received signal 15问题</title>
+    <link href="http://tuntuntun.net/%E8%A7%A3%E5%86%B3Android-VPN-libipsec-failed-pfkey-open-Address-family-not-supported-by-protocol-%E9%97%AE%E9%A2%98.html"/>
+    <id>http://tuntuntun.net/解决Android-VPN-libipsec-failed-pfkey-open-Address-family-not-supported-by-protocol-问题.html</id>
+    <published>2018-05-31T13:41:00.000Z</published>
+    <updated>2018-06-01T01:34:31.807Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="Android系统" scheme="http://tuntuntun.net/categories/Android%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="Android" scheme="http://tuntuntun.net/tags/Android/"/>
+    
+      <category term="ipsec" scheme="http://tuntuntun.net/tags/ipsec/"/>
+    
+      <category term="kernel" scheme="http://tuntuntun.net/tags/kernel/"/>
+    
+      <category term="VPN" scheme="http://tuntuntun.net/tags/VPN/"/>
+    
+      <category term="mtpd" scheme="http://tuntuntun.net/tags/mtpd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VC++MFC动态生成并动态调用dll</title>
     <link href="http://tuntuntun.net/C-%E5%8A%A8%E6%80%81%E7%94%9F%E6%88%90%E5%B9%B6%E5%8A%A8%E6%80%81%E8%B0%83%E7%94%A8dll.html"/>
     <id>http://tuntuntun.net/C-动态生成并动态调用dll.html</id>
     <published>2018-05-26T11:50:00.000Z</published>
-    <updated>2018-05-27T04:55:10.007Z</updated>
+    <updated>2018-06-01T01:14:07.707Z</updated>
     
     <summary type="html">
     

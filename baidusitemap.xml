@@ -4,11 +4,39 @@
 
     
   <url>
-    <loc>http://tuntuntun.net/C-%E5%8A%A8%E6%80%81%E7%94%9F%E6%88%90%E5%B9%B6%E5%8A%A8%E6%80%81%E8%B0%83%E7%94%A8dll.html</loc>
-    <lastmod>2018-05-27T04:55:10.007Z</lastmod>
+    <loc>http://tuntuntun.net/%E8%A7%A3%E5%86%B3Android-VPN-libipsec-failed-pfkey-open-Address-family-not-supported-by-protocol-%E9%97%AE%E9%A2%98.html</loc>
+    <lastmod>2018-06-01T01:34:31.807Z</lastmod>
     <data>
         <display>
-        <title>VC++动态生成并动态调用dll</title>
+        <title>解决Android VPN libipsec failed pfkey open (Address family not supported by protocol)以及Received signal 15问题</title>
+        <pubTime>2018-05-31T13:41:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>ipsec</tag>
+         
+        <tag>kernel</tag>
+         
+        <tag>VPN</tag>
+         
+        <tag>mtpd</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android系统" url="http://tuntuntun.net/categories/Android%E7%B3%BB%E7%BB%9F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tuntuntun.net/C-%E5%8A%A8%E6%80%81%E7%94%9F%E6%88%90%E5%B9%B6%E5%8A%A8%E6%80%81%E8%B0%83%E7%94%A8dll.html</loc>
+    <lastmod>2018-06-01T01:14:07.707Z</lastmod>
+    <data>
+        <display>
+        <title>VC++MFC动态生成并动态调用dll</title>
         <pubTime>2018-05-26T11:50:00.000Z</pubTime>
         
         <tag>VC++</tag>
