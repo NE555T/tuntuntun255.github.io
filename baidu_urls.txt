@@ -1,3 +1,4 @@
+http://tuntuntun.net/OpenWrt挂载USB，在U盘上安装软件.html
 http://tuntuntun.net/在OpenWrt上运行第一个HelloWorld可执行程序（MIPS交叉编译环境搭建）.html
 http://tuntuntun.net/解决Android-VPN-libipsec-failed-pfkey-open-Address-family-not-supported-by-protocol-问题.html
 http://tuntuntun.net/C-动态生成并动态调用dll.html

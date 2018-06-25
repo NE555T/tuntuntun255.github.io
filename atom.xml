@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tuntuntun.net/"/>
-  <updated>2018-06-11T14:18:11.727Z</updated>
+  <updated>2018-06-25T06:22:09.615Z</updated>
   <id>http://tuntuntun.net/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OpenWrt挂载USB，在U盘上安装软件</title>
+    <link href="http://tuntuntun.net/OpenWrt%E6%8C%82%E8%BD%BDUSB%EF%BC%8C%E5%9C%A8U%E7%9B%98%E4%B8%8A%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6.html"/>
+    <id>http://tuntuntun.net/OpenWrt挂载USB，在U盘上安装软件.html</id>
+    <published>2018-06-25T03:55:00.000Z</published>
+    <updated>2018-06-25T06:22:09.615Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="OpenWrt" scheme="http://tuntuntun.net/categories/OpenWrt/"/>
+    
+    
+      <category term="OpenWrt" scheme="http://tuntuntun.net/tags/OpenWrt/"/>
+    
+      <category term="linux" scheme="http://tuntuntun.net/tags/linux/"/>
+    
+      <category term="usb" scheme="http://tuntuntun.net/tags/usb/"/>
+    
+  </entry>
   
   <entry>
     <title>在OpenWrt上运行第一个HelloWorld可执行程序（MIPS交叉编译环境搭建）</title>
