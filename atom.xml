@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tuntuntun.net/"/>
-  <updated>2018-09-16T12:01:26.115Z</updated>
+  <updated>2018-10-03T03:57:53.063Z</updated>
   <id>http://tuntuntun.net/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ARM编程第一步--点亮LED（s5pv210/Cortex-A8 汇编）</title>
+    <link href="http://tuntuntun.net/ARM%E7%BC%96%E7%A8%8B%E7%AC%AC%E4%B8%80%E6%AD%A5-%E7%82%B9%E4%BA%AELED%EF%BC%88Cortex-A8%EF%BC%89.html"/>
+    <id>http://tuntuntun.net/ARM编程第一步-点亮LED（Cortex-A8）.html</id>
+    <published>2018-10-03T03:51:00.000Z</published>
+    <updated>2018-10-03T03:57:53.063Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="ASM" scheme="http://tuntuntun.net/categories/ASM/"/>
+    
+    
+      <category term="ARM汇编" scheme="http://tuntuntun.net/tags/ARM%E6%B1%87%E7%BC%96/"/>
+    
+      <category term="s5pv210" scheme="http://tuntuntun.net/tags/s5pv210/"/>
+    
+      <category term="Cortex-A8" scheme="http://tuntuntun.net/tags/Cortex-A8/"/>
+    
+  </entry>
   
   <entry>
     <title>使MarkdownPad2支持多个流程图绘制及目录扩展</title>
