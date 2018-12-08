@@ -1,3 +1,4 @@
+http://tuntuntun.net/Python简易串口16进制Hex调试工具.html
 http://tuntuntun.net/ARM编程第一步-点亮LED（Cortex-A8）.html
 http://tuntuntun.net/使MarkdownPad2支持多个流程图绘制及目录扩展.html
 http://tuntuntun.net/OpenWrt挂载USB，在U盘上安装软件.html
